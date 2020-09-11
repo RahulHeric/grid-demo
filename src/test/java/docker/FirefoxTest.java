@@ -18,7 +18,7 @@ public static void grid2() throws MalformedURLException, InterruptedException{
 		RemoteWebDriver driver=new RemoteWebDriver(url,dc);
 		Thread.sleep(5000);
 		driver.get("https://opensource-demo.orangehrmlive.com/");
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		System.out.println("title of page : "+driver.getTitle());
 		driver.quit();
 				
